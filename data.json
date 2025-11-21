@@ -8,6 +8,70 @@
       "download": "立即下载",
       "sections": [
         {
+          "id": "video-comparison",
+          "title": "功能概览",
+          "icon": "fas fa-video",
+          "content": [
+            {
+              "type": "function-title",
+              "value": "卡通滤镜功能"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./cartoon_01.mp4",
+                "title": "处理前"
+              },
+              "after": {
+                "src": "./cartoon_02.mp4",
+                "title": "处理后"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelMagic的AI功能可以优化视频质量，包括色彩校正、降噪等，让视频快速改善。"
+            },
+            {
+              "type": "function-title",
+              "value": "幻妆面具功能"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./faceswap_01.mp4",
+                "title": "处理前"
+              },
+              "after": {
+                "src": "./faceswap_02.mp4",
+                "title": "处理后"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelMagic幻妆面具功能，包括人脸替换、局部替换、细节增强，让视频快速提升。"
+            },
+            {
+              "type": "function-title",
+              "value": "语音克隆功能"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./voice_01.mp4",
+                "title": "处理前"
+              },
+              "after": {
+                "src": "./voice_02.mp4",
+                "title": "处理后"
+              }
+            },
+            {
+              "type": "text",
+              "value": "选择目标视频与一段模仿者的音色，模仿者会根据视频声音进行模仿。"
+            }
+          ]
+        },
+        {
           "id": "intro",
           "title": "软件介绍",
           "icon": "fas fa-play-circle",
@@ -71,70 +135,6 @@
                   "icon": "fas fa-file-video"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "video-comparison",
-          "title": "功能概览",
-          "icon": "fas fa-video",
-          "content": [
-            {
-              "type": "function-title",
-              "value": "卡通滤镜功能"
-            },
-            {
-              "type": "video-comparison",
-              "before": {
-                "src": "./cartoon_01.mp4",
-                "title": "处理前"
-              },
-              "after": {
-                "src": "./cartoon_02.mp4",
-                "title": "处理后"
-              }
-            },
-            {
-              "type": "text",
-              "value": "ReelMagic的AI功能可以优化视频质量，包括色彩校正、降噪等，让视频快速改善。"
-            },
-            {
-              "type": "function-title",
-              "value": "幻妆面具功能"
-            },
-            {
-              "type": "video-comparison",
-              "before": {
-                "src": "./faceswap_01.mp4",
-                "title": "处理前"
-              },
-              "after": {
-                "src": "./faceswap_02.mp4",
-                "title": "处理后"
-              }
-            },
-            {
-              "type": "text",
-              "value": "ReelMagic幻妆面具功能，包括人脸替换、局部替换、细节增强，让视频快速提升。"
-            },
-            {
-              "type": "function-title",
-              "value": "语音克隆功能"
-            },
-            {
-              "type": "video-comparison",
-              "before": {
-                "src": "./voice_01.mp4",
-                "title": "处理前"
-              },
-              "after": {
-                "src": "./voice_02.mp4",
-                "title": "处理后"
-              }
-            },
-            {
-              "type": "text",
-              "value": "选择目标视频与一段模仿者的音色，模仿者会根据视频声音进行模仿。"
             }
           ]
         },
@@ -244,6 +244,70 @@
       "download": "Download Now",
       "sections": [
         {
+          "id": "video-comparison",
+          "title": "Feature Overview",
+          "icon": "fas fa-video",
+          "content": [
+            {
+              "type": "function-title",
+              "value": "Cartoon Filter Feature"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./cartoon_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./cartoon_02.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelMagic's AI features can optimize video quality, including color correction, noise reduction, etc., to quickly improve videos."
+            },
+            {
+              "type": "function-title",
+              "value": "Face Mask Feature"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./faceswap_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./faceswap_02.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelMagic face mask feature includes face replacement, local replacement, and detail enhancement to quickly enhance videos."
+            },
+            {
+              "type": "function-title",
+              "value": "Voice Cloning Feature"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./voice_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./voice_03.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "Select the target video and an imitator's voice tone, the imitator will mimic based on the video sound."
+            }
+          ]
+        },
+                {
           "id": "intro",
           "title": "Introduction",
           "icon": "fas fa-play-circle",
@@ -307,70 +371,6 @@
                   "icon": "fas fa-file-video"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "video-comparison",
-          "title": "Feature Overview",
-          "icon": "fas fa-video",
-          "content": [
-            {
-              "type": "function-title",
-              "value": "Cartoon Filter Feature"
-            },
-            {
-              "type": "video-comparison",
-              "before": {
-                "src": "./cartoon_01.mp4",
-                "title": "Before"
-              },
-              "after": {
-                "src": "./cartoon_02.mp4",
-                "title": "After"
-              }
-            },
-            {
-              "type": "text",
-              "value": "ReelMagic's AI features can optimize video quality, including color correction, noise reduction, etc., to quickly improve videos."
-            },
-            {
-              "type": "function-title",
-              "value": "Face Mask Feature"
-            },
-            {
-              "type": "video-comparison",
-              "before": {
-                "src": "./faceswap_01.mp4",
-                "title": "Before"
-              },
-              "after": {
-                "src": "./faceswap_02.mp4",
-                "title": "After"
-              }
-            },
-            {
-              "type": "text",
-              "value": "ReelMagic face mask feature includes face replacement, local replacement, and detail enhancement to quickly enhance videos."
-            },
-            {
-              "type": "function-title",
-              "value": "Voice Cloning Feature"
-            },
-            {
-              "type": "video-comparison",
-              "before": {
-                "src": "./voice_01.mp4",
-                "title": "Before"
-              },
-              "after": {
-                "src": "./voice_03.mp4",
-                "title": "After"
-              }
-            },
-            {
-              "type": "text",
-              "value": "Select the target video and an imitator's voice tone, the imitator will mimic based on the video sound."
             }
           ]
         },
