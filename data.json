@@ -1,0 +1,476 @@
+{
+  "language": {
+    "zh": {
+      "logo": {
+        "title": "ReelMagic",
+        "subtitle": "AI视频编辑工具\naireelmagic@outlook.com"
+      },
+      "download": "立即下载",
+      "sections": [
+        {
+          "id": "intro",
+          "title": "软件介绍",
+          "icon": "fas fa-play-circle",
+          "content": [
+            {
+              "type": "text",
+              "value": "ReelMagic是一款AI视频处理软件，适合内容创作者、视频爱好者和专业编辑使用。它提供直观的界面和辅助工具，支持中英文，帮助您轻松编辑视频。"
+            },
+            {
+              "type": "image",
+              "url": "./img/overview.png",
+              "scale": 0.9,
+              "caption": "ReelMagic主界面"
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "title": "主要功能",
+          "icon": "fas fa-star",
+          "content": [
+            {
+              "type": "text",
+              "value": "ReelMagic提供多种AI辅助编辑功能，覆盖从基础剪辑到高级处理。"
+            },
+            {
+              "type": "grid",
+              "items": [
+                {
+                  "title": "自动生成字幕",
+                  "text": "一键分离音频，生成多语言字幕。",
+                  "icon": "fas fa-file-word",
+                  "ai": true
+                },
+                {
+                  "title": "音色语音克隆",
+                  "text": "智能分离背景音，替换人物声音。",
+                  "icon": "fas fa-clone",
+                  "ai": true
+                },
+                {
+                  "title": "卡通滤镜",
+                  "text": "多种卡通风格滤镜，视频变为卡通动画。",
+                  "icon": "fas fa-palette",
+                  "ai": true
+                },
+                {
+                  "title": "幻妆面具",
+                  "text": "支持局部替换人脸，实现美颜和画质增强。",
+                  "icon": "fas fa-smile",
+                  "ai": true
+                },
+                {
+                  "title": "基础剪辑",
+                  "text": "基础视频剪辑功能，包括拼接、裁剪、转场等。",
+                  "icon": "fas fa-cut"
+                },
+                {
+                  "title": "视频混剪",
+                  "text": "将多个视频、音频、特效组合，创建新内容。",
+                  "icon": "fas fa-file-video"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "video-comparison",
+          "title": "功能概览",
+          "icon": "fas fa-video",
+          "content": [
+            {
+              "type": "function-title",
+              "value": "卡通滤镜功能"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./cartoon_01.mp4",
+                "title": "处理前"
+              },
+              "after": {
+                "src": "./cartoon_02.mp4",
+                "title": "处理后"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelMagic的AI功能可以优化视频质量，包括色彩校正、降噪等，让视频快速改善。"
+            },
+            {
+              "type": "function-title",
+              "value": "幻妆面具功能"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./faceswap_01.mp4",
+                "title": "处理前"
+              },
+              "after": {
+                "src": "./faceswap_02.mp4",
+                "title": "处理后"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelMagic幻妆面具功能，包括人脸替换、局部替换、细节增强，让视频快速提升。"
+            },
+            {
+              "type": "function-title",
+              "value": "语音克隆功能"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./voice_01.mp4",
+                "title": "处理前"
+              },
+              "after": {
+                "src": "./voice_02.mp4",
+                "title": "处理后"
+              }
+            },
+            {
+              "type": "text",
+              "value": "选择目标视频与一段模仿者的音色，模仿者会根据视频声音进行模仿。"
+            }
+          ]
+        },
+        {
+          "id": "editing",
+          "title": "基础剪辑",
+          "icon": "fas fa-cut",
+          "content": [
+            {
+              "type": "text",
+              "value": "了解ReelMagic的基础剪辑功能，快速开始视频编辑。"
+            },
+            {
+              "type": "gallery-tutorial",
+              "id": "basic-editing",
+              "title": "剪辑步骤详解",
+              "items": [
+                {
+                  "image": "./step1.png",
+                  "title": "选取剪辑内容",
+                  "description": "拖动时间线选取视频段落，鼠标滚轮缩放时间线。"
+                },
+                {
+                  "image": "./step2.png",
+                  "title": "设置滤镜",
+                  "description": "添加Cartoon或Face滤镜。可同时设置多个或组合。"
+                },
+                {
+                  "image": "./step3.png",
+                  "title": "幻妆设置",
+                  "description": "对于Face滤镜，左侧是替换的人像，右侧截取视频中的人像（默认使用第一张出现的人像）。"
+                },
+                {
+                  "image": "./step4.png",
+                  "title": "生成视频",
+                  "description": "点击生成视频按钮，设置滤镜配置属性。"
+                },
+                {
+                  "image": "./step5.png",
+                  "title": "合成结束",
+                  "description": "视频生成后自动预览，点击保存按钮另存视频。"
+                },
+                {
+                  "image": "./step6.png",
+                  "title": "添加背景音乐和音效",
+                  "description": "右键播放器窗口，选择叠加背景声音进行合成。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-features",
+          "title": "字幕功能",
+          "icon": "fas fa-robot",
+          "content": [
+            {
+              "type": "text",
+              "value": "ReelMagic集成AI技术，支持生成字幕和多语言翻译。"
+            },
+            {
+              "type": "gallery-tutorial",
+              "id": "sub-editing",
+              "title": "字幕与语音克隆详解",
+              "items": [
+                {
+                  "image": "./sub1.png",
+                  "title": "点击生成字幕",
+                  "description": "打开视频后，点击生成字幕，软件根据语音生成字幕，可选择翻译成其他语言。"
+                },
+                {
+                  "image": "./sub2.png",
+                  "title": "烧录字幕",
+                  "description": "右键生成的字幕，添加硬字幕或软字幕到视频。"
+                },
+                {
+                  "image": "./sub3.png",
+                  "title": "语音生成",
+                  "description": "点击克隆音频，软件提取视频声音。"
+                },
+                {
+                  "image": "./sub4.png",
+                  "title": "声音克隆",
+                  "description": "声音处理后，弹出角色列表，为每个角色选择配音音色，确认后生成配音。"
+                },
+                {
+                  "image": "./sub5.png",
+                  "title": "音频处理",
+                  "description": "也可选择MP3音频文件进行声音克隆。"
+                },
+                {
+                  "image": "./sub6.png",
+                  "title": "右键菜单",
+                  "description": "通过右键菜单快速截取音色或视频文件，点击预览窗格显示视频关键帧。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "logo": {
+        "title": "ReelMagic",
+        "subtitle": "AI Video Editing Tool\naireelmagic@outlook.com"
+      },
+      "download": "Download Now",
+      "sections": [
+        {
+          "id": "intro",
+          "title": "Introduction",
+          "icon": "fas fa-play-circle",
+          "content": [
+            {
+              "type": "text",
+              "value": "ReelMagic is an AI video editing tool designed for content creators, video enthusiasts, and professional editors. It features a user-friendly interface and practical tools with bilingual support, making video editing straightforward."
+            },
+            {
+              "type": "image",
+              "url": "./img/overview.png",
+              "scale": 0.9,
+              "caption": "ReelMagic Main Interface"
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "title": "Key Features",
+          "icon": "fas fa-star",
+          "content": [
+            {
+              "type": "text",
+              "value": "ReelMagic offers various AI-assisted editing features, covering from basic editing to advanced processing."
+            },
+            {
+              "type": "grid",
+              "items": [
+                {
+                  "title": "Auto Subtitle Generation",
+                  "text": "One-click audio separation and multi-language subtitle generation.",
+                  "icon": "fas fa-file-word",
+                  "ai": true
+                },
+                {
+                  "title": "Voice Cloning",
+                  "text": "Intelligently separate background noise and replace character voices.",
+                  "icon": "fas fa-clone",
+                  "ai": true
+                },
+                {
+                  "title": "Cartoon Filters",
+                  "text": "Multiple cartoon style filters to turn videos into animations.",
+                  "icon": "fas fa-palette",
+                  "ai": true
+                },
+                {
+                  "title": "Face Mask",
+                  "text": "Support local face replacement for beautification and quality enhancement.",
+                  "icon": "fas fa-smile",
+                  "ai": true
+                },
+                {
+                  "title": "Basic Editing",
+                  "text": "Basic video editing functions including splicing, cropping, transitions, etc.",
+                  "icon": "fas fa-cut"
+                },
+                {
+                  "title": "Video Mix",
+                  "text": "Combine multiple videos, audio, and effects to create new content.",
+                  "icon": "fas fa-file-video"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "video-comparison",
+          "title": "Feature Overview",
+          "icon": "fas fa-video",
+          "content": [
+            {
+              "type": "function-title",
+              "value": "Cartoon Filter Feature"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./cartoon_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./cartoon_02.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelMagic's AI features can optimize video quality, including color correction, noise reduction, etc., to quickly improve videos."
+            },
+            {
+              "type": "function-title",
+              "value": "Face Mask Feature"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./faceswap_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./faceswap_02.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelMagic face mask feature includes face replacement, local replacement, and detail enhancement to quickly enhance videos."
+            },
+            {
+              "type": "function-title",
+              "value": "Voice Cloning Feature"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./voice_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./voice_02.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "Select the target video and an imitator's voice tone, the imitator will mimic based on the video sound."
+            }
+          ]
+        },
+        {
+          "id": "editing",
+          "title": "Basic Editing",
+          "icon": "fas fa-cut",
+          "content": [
+            {
+              "type": "text",
+              "value": "Learn ReelMagic's basic editing functions to quickly start video editing."
+            },
+            {
+              "type": "gallery-tutorial",
+              "id": "basic-editing",
+              "title": "Editing Steps Details",
+              "items": [
+                {
+                  "image": "./step1.png",
+                  "title": "Select Editing Content",
+                  "description": "Drag on the timeline to select video segments, use mouse wheel to zoom timeline."
+                },
+                {
+                  "image": "./step2.png",
+                  "title": "Set Filters",
+                  "description": "Add Cartoon or Face filters. Multiple filters can be set or combined."
+                },
+                {
+                  "image": "./step3.png",
+                  "title": "Face Mask Settings",
+                  "description": "For Face filter, left side is the replacement face, right side captures face from video (default uses the first appearing face)."
+                },
+                {
+                  "image": "./step4.png",
+                  "title": "Generate Video",
+                  "description": "Click generate video button, set filter configuration properties."
+                },
+                {
+                  "image": "./step5.png",
+                  "title": "Synthesis Complete",
+                  "description": "Video is automatically previewed after generation, click save button to export video."
+                },
+                {
+                  "image": "./step6.png",
+                  "title": "Add Background Music and Sound Effects",
+                  "description": "Right-click player window to overlay background sound for synthesis."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-features",
+          "title": "Subtitle Features",
+          "icon": "fas fa-robot",
+          "content": [
+            {
+              "type": "text",
+              "value": "ReelMagic integrates AI technology to support subtitle generation and multi-language translation."
+            },
+            {
+              "type": "gallery-tutorial",
+              "id": "sub-editing",
+              "title": "Subtitle and Voice Cloning Details",
+              "items": [
+                {
+                  "image": "./sub1.png",
+                  "title": "Click Generate Subtitle",
+                  "description": "After opening video, click generate subtitle, software generates subtitles from speech, can translate to other languages."
+                },
+                {
+                  "image": "./sub2.png",
+                  "title": "Burn Subtitle",
+                  "description": "Right-click generated subtitle to add hard or soft subtitles to video."
+                },
+                {
+                  "image": "./sub3.png",
+                  "title": "Voice Generation",
+                  "description": "Click clone audio, software extracts video sound."
+                },
+                {
+                  "image": "./sub4.png",
+                  "title": "Voice Cloning",
+                  "description": "After sound processing, character list pops up, select voice tone for each character, confirm to generate dubbing."
+                },
+                {
+                  "image": "./sub5.png",
+                  "title": "Audio Processing",
+                  "description": "Also can select MP3 audio files for voice cloning."
+                },
+                {
+                  "image": "./sub6.png",
+                  "title": "Right-click Menu",
+                  "description": "Use right-click menu to quickly capture voice or video files, click preview pane to show video keyframes."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
